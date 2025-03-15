@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+p,ul,.btn,form,li,a,.card-body{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+.header-color{
+    background-color: rgb(240,243,242);
+    color: rgb(92, 90, 90);
+    font-size: 0.9rem;
+}
+.size{
+    position: relative;
+    width:541px;
+}
+input{
+   height: 41px;
+}
+.img1{
+    position: absolute;
+    right: 0px;
+    top:11.5px;
+    right: 12px;
+    pointer-events: none;
+    transition: opacity 0.3s;
+}
+.location{
+    color: rgb(160, 160, 160);
+}
+.bag{
+  position: relative;
+  left:326px;
+}
+.tsize{
+  font-size: 0.8rem;
+  background-color: rgb(61,226,90);
+}
+
+.ul-5{
+  font-size: 0.9rem;
+}
+.background{
+  background-image: url(https://freshcart.codescandy.com/assets/images/slider/slide-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  width: 100%;
+  height: 543.02px;
+}
+.decorate{
+  position: relative;
+  left: 65px;
+  top: 130px;
+}
+
+span {
+  font-size: 10.5px;
+}
+.card{
+  width: 196px;
+  height: 200px;
+}
+.col{
+  width:fit-content;
+}
+.para p{
+  font-size: 14px;
+}
+
+  @media screen and (min-width :0px) and (max-width:430px) {
+   .english{
+    display: none;
+   }
+  }
+
+  @media screen and (max-width: 768px) {
+    .size {
+      width: 150px;
+    }
+  }
+
+  @media screen and (min-width: 769px) and (max-width: 999px) {
+    .size {
+      width: 360px;
+    }
+  }
+
+  @media screen and (min-width: 1001px) {
+    .size {
+      width: 541px;
+    }
+  }
+
+  @media screen and (max-width:768px){
+    .bag{
+      position: relative;
+       left:20px;
+    }
+  }
+  @media screen and (min-width: 700px) and (max-width: 853px) {
+    .bag{
+      position: relative;
+       left:20px;
+    }
+  }
+  @media screen and (min-width: 854px) and (max-width: 1201px) {
+    .bag{
+      position: relative;
+       left:20px;
+    }
+  }
+  @media screen and (min-width: 1202px) and (max-width: 1399px) {
+    .bag{
+      position: relative;
+       left:100px;
+    }
+  }
+  @media screen and (min-width:1400px) {
+    .bag{
+      position: relative;
+       left:320px;
+    }
+  }
+
+

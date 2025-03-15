@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;;
+    
+}
+html{
+    background-image: url(https://img.redbull.com/images/q_auto,f_auto/redbullcom/2018/07/24/1c8f5fa2-5892-4995-aaeb-ddaf849cc7a0/the-right-ren-mcgann-11);
+    background-repeat: no-repeat;
+    background-color: rgba(42, 44, 44, 0.772);
+    background-size:cover ;
+    background-blend-mode:luminosity;
+}
+h1{
+    color: rgb(255, 252, 252);
+    font-size: 12rem;
+}
+p{
+    font-size: 2rem;
+    margin-bottom: 85px;
+    color: white;
+}
+.first{
+    display: inline;
+    font-size: 1.5rem;
+    border: 3px solid rgb(255, 253, 253);
+    padding: 15px 45px;
+    margin-right: 35px;
+}
+.second{
+    display: inline;
+    font-size: 1.5rem;
+    border: 3px solid rgb(251, 248, 248);
+    padding: 15px 65px
+}
+div{
+    text-align: center;
+    margin: 150px 0;
+}

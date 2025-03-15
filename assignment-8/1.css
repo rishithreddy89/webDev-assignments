@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.two{
+    margin-left: 9px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+label,input{
+    display: block;
+}
+
+input[type='radio'],.one{
+    display: inline;
+}
+input[type='checkbox']{
+    display: inline;
+}
+h1{
+   text-align: center;
+   margin-right: 170px;
+}
+form{
+    margin:20px auto;
+    width:300px;
+    background-color: white
+}
+html{
+    background-color: rgb(224, 224, 224);
+}
+div{
+    margin: 10px;
+}
+button{
+   margin-left:10px;
+}

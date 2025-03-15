@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+    background-color: white;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    list-style: none;
+}
+body{
+    background-image: url(https://img.freepik.com/free-vector/tropical-leaves-background-zoom_52683-40995.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 150px;
+    flex-wrap: wrap;
+}
+.child{
+    border: 2px white solid solid;
+    background-color: white;
+    width: 300px;
+    height:390px;
+    border-radius: 7px;
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    margin-top: 50px;
+}
+h2{
+    font-size: medium;
+    margin-top: 5px;
+}
+p{
+    padding: 15px 50px;
+    text-align: center;
+    color: rgb(150, 146, 146);
+}
+.child-1 h4{
+    border: 2px white solid;
+    width: 75px;
+    margin: auto;
+    color: white;
+    background-color: #565683;
+    border-radius: 15px;
+    margin-top: 23px;
+}
+.child-2 h4{
+    border: 2px white solid;
+    width: 110px;
+    margin: auto;
+    color: white;
+    background-color:rgb(226,187,96);
+    border-radius: 15px;
+    margin-top: 23px;
+}
+.child-2{
+    text-align: center;
+}
+
+.child-3 h4{
+    border: 2px white solid;
+    width: 110px;
+    margin: auto;
+    color: white;
+    background-color:rgb(210,150,181);
+    border-radius: 15px;
+    margin-top: 23px;
+}
+.child-4 h4{
+    border: 2px white solid;
+    width: 110px;
+    margin: auto;
+    color: white;
+    background-color:rgb(210,150,181);
+    border-radius: 15px;
+    margin-top: 23px;
+}

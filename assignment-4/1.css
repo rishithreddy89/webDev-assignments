@@ -1,0 +1,36 @@
+body{
+    background-color: rgba(233,237,214,255)
+}
+h1
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    display:flex;
+}
+img{
+    width: 255px;  
+    float: left;
+}
+span{
+    color: rgb(168, 12, 12);
+}
+div{
+  display: inline-block;
+}
+.para{
+    margin-top: 0%;
+}
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:25px;
+}
+.fir{
+    color: red;
+}
+*{
+    font-weight: 500;
+}
+body{
+    padding: 0 70px;
+}
+

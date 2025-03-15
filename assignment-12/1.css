@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+header{
+    display:flex;
+    justify-content: space-around;
+    padding: 10px 40px;
+    flex-wrap: wrap;
+}
+h1{
+    font-size: clamp(1rem,10vh,1.4rem);
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+    width: 390px;
+    list-style: none;   
+    align-items: center;
+    flex-wrap: wrap;
+}
+header li{
+    color:rgb(45,207,194);
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1.2fr 1fr;
+    grid-template-rows: 290px 350px;
+}
+.child-1 img{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.child-1 h1{
+    margin-bottom: 5px;
+}
+.child-1{
+    grid-column: 1/4;
+    text-align: center;
+    background-color:rgb(45,207,194);
+}
+.child-2{
+    grid-column:1/2;
+    padding: 35px 30px 0px 30px ;
+}
+.child-2 h2,.child-3 h2,.child-4 h2{
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+.child-2 p ,.child-3 p,.child-4 p{
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+.child-3{
+    grid-column: 2/3;
+    padding: 35px 30px 0px 30px ;
+}
+.child-3 img{
+    height: 200px;
+    width: 370px;
+    margin-bottom: 10px;
+}
+.child-4{
+    grid-column:3/4;
+    padding: 35px 30px 0px 0px;
+}
+
+@media screen and (max-width:750px){
+    .child-2{
+        grid-column: 1/4;
+    }
+    .child-3{
+        grid-column: 1/4;
+    }
+    .child-4{
+        grid-column: 1/4;
+    }
+    main{
+        grid-template-rows:1fr 0.6fr 1fr 1fr;
+    }
+}
+ @media screen and (min-width:750px) and (max-width:950px){
+    main{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .child-1{
+        grid-column: 1/3;
+    }
+    .child-2{
+        grid-column: 1/2;
+    }
+    .child-3{
+        grid-column: 2/3;
+    }
+    .child-4{
+        grid-column: 1/2;
+    }
+}
+
